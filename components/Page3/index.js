@@ -2,7 +2,7 @@ import React from "react";
 import {View, Text} from 'react-native';
 import styles from "./styles";
 
-const Page2 = () => {
+const Page3 = () => {
 
    return (
       <View style={styles.container}>
@@ -11,4 +11,4 @@ const Page2 = () => {
    );
 };
    
-export default Page2;
+export default Page3;
