@@ -1,5 +1,5 @@
 import React from "react";
-import {View, Text, FlatList, TouchableOpacity, Dimensions} from 'react-native';
+import {View, Text} from 'react-native';
 import styles from "./styles";
 
 const Page2 = () => {

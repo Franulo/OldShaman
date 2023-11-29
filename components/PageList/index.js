@@ -1,5 +1,5 @@
 import React from "react";
-import {View, Text, FlatList, TouchableOpacity, Dimensions, ScrollView} from 'react-native';
+import {Dimensions, ScrollView} from 'react-native';
 import styles from "./style";
 import Page1 from "../Page1";
 import Page2 from "../Page2";
