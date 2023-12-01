@@ -4,14 +4,18 @@ const styles = StyleSheet.create({
    container: {
       width: Dimensions.get('window').width,
       height: '100%',
-      backgroundColor: 'white',
+      flex: 1,
+      alignItems: 'center',
       justifyContent: 'center',
-      alignItems: 'center'
-    },
-    text: {
-      color: 'black',
-      fontSize: 12,
-    },
-});
+   },
+   buttonContainer: {
+      backgroundColor: '#fff',
+      alignSelf: 'flex-end'
+   },
+   preview: {
+      alignSelf: 'stretch',
+      flex: 1
+   }
+ });
 
 export default styles;

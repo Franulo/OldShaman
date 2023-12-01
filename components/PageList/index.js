@@ -17,8 +17,9 @@ const PageList = () => {
          showsHorizontalScrollIndicator={false}
       >
          <Page3 />
-         <Page1 />
          <Page2 />
+         <Page1 />
+         
       </ScrollView>
       
    );
