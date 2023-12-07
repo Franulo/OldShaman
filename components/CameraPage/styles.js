@@ -10,7 +10,7 @@ const styles = StyleSheet.create({
    },
    buttonContainer: {
       backgroundColor: '#fff',
-      alignSelf: 'flex-end'
+      alignSelf: 'center'
    },
    preview: {
       alignSelf: 'stretch',

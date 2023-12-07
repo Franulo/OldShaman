@@ -7,7 +7,7 @@ import * as MediaLibrary from 'expo-media-library';
 import styles from "./styles";
 import model from "./Model";
 
-const Page3 = () => {
+const CameraPage = () => {
    let cameraRef = useRef();
    const [hasCameraPermission, setHasCameraPermission] = useState();
    const [hasMediaLibraryPermission, setHasMediaLibraryPermission] = useState();
@@ -77,4 +77,4 @@ const Page3 = () => {
    );
  }
 
- export default Page3;
+ export default CameraPage;
