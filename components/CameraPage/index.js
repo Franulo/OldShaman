@@ -32,7 +32,6 @@ const CameraPage = () => {
      let options = {
        quality: 1,
        base64: true,
-       exif: false
      };
  
      let newPhoto = await cameraRef.current.takePictureAsync(options);
@@ -40,9 +39,13 @@ const CameraPage = () => {
    };
  
    if (photo) {
-     let analysePic = () => {
-        model(photo.uri)
-     }
+      let analysePic = async () => {
+         try {
+           await model(photo);
+         } catch (error) {
+           console.error('Error during analysis:', error);
+         }
+       };
 
      let sharePic = () => {
        shareAsync(photo.uri).then(() => {
